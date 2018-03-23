@@ -55,5 +55,53 @@ function sumArray(array1) {
 
 console.log(sumArray([1, 2, 3, 70]));
 
+//Prime Numbers
+
+function checkPrime(num) {
+	array5 = [1, 2, 3, 4, 5];
+	let num7 = 0
+	for (let i = 0; i <= array5.length; i++) {
+		if (Math.sqrt([i]) === [i]) {
+			console.log(array5[i]);
+		}
+	}
+}
+
+//Insert Dash
+
+
+function insertDash(array1) {
+	let var1 = 0
+	for (var1 = 0; var1 <array1.length-1; var1++) {
+		if ([var1] % 2 === 1) {
+			console.log(array1.join("-"));
+		} else if ([var1] % 2 === 0 ) {
+			console.log(var1[1]);
+		} return var1[2];
+	}
+}
+
+console.log(insertDash([1,2,3,4,5,5,6]));
+
+function insertDash1(num) {
+	let var1 = (num+"").split("");
+
+	console.log(var1); 
+	for (let i = 0; i < var1.length; i++) {
+		console.log(typeof(parseInt(var1[i])));
+	}
+}
+
+console.log(insertDash1(12345));
+
+let num3 = "123456"
+console.log(num3.toString());
+console.log(num3.indexOf(4))
+
+
+
+
+
+
 
 
